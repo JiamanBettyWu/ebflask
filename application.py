@@ -30,7 +30,7 @@ def translate_info():
         print('SourceLanguageCode: ' + result.get('SourceLanguageCode'))
         print('TargetLanguageCode: ' + result.get('TargetLanguageCode'))
         # return 'Hello! \n The text is {} \n the target is {}'.format(text, tl)
-        return result.get('TranslatedText')
+        return render_template("translation_text.html", tx =result.get('TranslatedText'))
 
 
 # run the app.
