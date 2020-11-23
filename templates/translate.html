@@ -1,13 +1,41 @@
+<!DOCTYPE html>
 <html>
-   <body>
-      <form action = "/translate_text" method = "post">
-         <p>Enter text:</p>
-         <p><input type = "text" name = "tx" /></p>
-         <p>Enter Source Language:</p>
-         <p><input type = "text" name = "sl" /></p>
-         <p>Enter Target Language:</p>
-         <p><input type = "text" name = "tl" /></p>
-         <p><input type = "submit" value = "submit" /></p>
-      </form>   
+   <head>
+		<meta charset="UTF-8">
+		<title>Interphase by TEMPLATED</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="{{url_for('static', filename = 'js/jquery.min.js')}}"></script>
+		<script src="{{url_for('static', filename = 'js/skel.min.js')}}"></script>
+		<script src="{{url_for('static', filename = 'js/skel-layers.min.js')}}"></script>
+		<script src="{{url_for('static', filename = 'js/init.js')}}"></script>
+
+		<link rel="stylesheet" href="{{url_for('static', filename = 'css/skel.css') }}" />
+		<link rel="stylesheet" href="{{url_for('static', filename = 'css/style.css') }}" />
+		<link rel="stylesheet" href="{{url_for('static', filename = 'css/style-xlarge.css') }}" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+   <body class="landing">
+      
+      <section id="two" class="wrapper style2">
+				<div class="inner">
+					<div class="box">
+						<div class="content">
+                            <h3>Please enter your text, source language, and target language below:</h3>
+                            <form action = "/translate_text" method = "post">
+                              <p>Enter text:</p>
+                              <p><input type = "text" name = "tx" /></p>
+                              <p>Enter source language:</p>
+                              <p><input type = "text" name = "sl" /></p>
+                              <p>Enter target language:</p>
+                              <p><input type = "text" name = "tl" /></p>
+                              <p><input type = "submit" value = "submit" /></p>
+                           </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
    </body>
 </html>
