@@ -5,7 +5,7 @@ import boto3
 application = Flask(__name__)
 
 @application.route('/')
-def hello():
+def index():
     return render_template('index.html')
     # need an index.html
 #@application.route('/index/')
