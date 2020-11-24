@@ -4,7 +4,7 @@
 This is a flask web application for language translation. We built an interactive website that allows users to translate the words/sentences with specified languages immediately. This is a serverless web application built on cloud with continuous intergradation and deployment. Check out the website [here](http://flask-env.eba-7pasacfp.us-east-1.elasticbeanstalk.com/).
 
 # Demo
-
+Please find the demo video [here](https://youtu.be/86fHNiLWelk).
 # Cloud Architecture
 ![flow](https://user-images.githubusercontent.com/45084684/100038332-cb783680-2dd1-11eb-9b18-d75ecfc9fb6f.png)
 
