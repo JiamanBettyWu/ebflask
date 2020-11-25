@@ -9,8 +9,8 @@ Please find the demo video [here](https://youtu.be/86fHNiLWelk).
 ![flow](https://user-images.githubusercontent.com/45084684/100038332-cb783680-2dd1-11eb-9b18-d75ecfc9fb6f.png)
 
 # Featured AWS services
-1. AWS Cloud9
-2. AWS CodeBuild
-3. AWS S3
-4. AWS Translate
-5. AWS Elastic Beanstalk
+1. [AWS Cloud9](https://aws.amazon.com/cloud9/): Cloud-based integrated development environment (IDE)
+2. [AWS CodeBuild](https://aws.amazon.com/codebuild/): Fully managed continuous integration service that compiles source code, runs tests, and produces software packages that are ready to deploy.
+3. [AWS S3](https://aws.amazon.com/s3/):Object storage built to store and retrieve data
+4. [AWS Translate](https://aws.amazon.com/translate/): Neural machine translation service that delivers fast, high-quality, and affordable language translation.
+5. [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/): AWS service for deploying and scaling web applications and services
